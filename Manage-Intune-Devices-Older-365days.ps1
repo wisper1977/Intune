@@ -1,7 +1,11 @@
-<# Powershell Script to find all computers in Intune and when the last time they were online.
+<#  .SYNOPSIS
+    Powershell Script to find all computers in Intune and when the last time they were online.
+    .NOTES
+    filename: Manage-Intune-Device-Older-365days.ps1
+    Powershell Script to find all computers in Intune and when the last time they were online.
     If not older used in last 365 days to remove them.
     author: Chris Collins
-    Date: 5/6/2022
+    created: 5/6/2022
     #>
     
 #Sign-in to AzureAD
