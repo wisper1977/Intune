@@ -24,7 +24,7 @@ NAME: Get-AuthToken
 
 [cmdletbinding()]
 
-$User = "USER" # Add your Administrator Account Name here
+$User = "USER" # Add your Microsoft 365 Administrator Account Name here
 
 $userUpn = New-Object "System.Net.Mail.MailAddress" -ArgumentList $User
 
